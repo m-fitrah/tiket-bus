@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="<?= base_url('assets/css/login.css'); ?>">
 </head>
 <body >
 <div class="container">
@@ -15,7 +15,13 @@
                 <input type="text" name="nama" id=""><br>
                 <label>Password</label><br>
                 <input type="password" name="password" id=""><br>
-                <a href="navbar.php"><button>Log in</button></a>
+                <a class="button" style="display:block; text-decoration:none; width: 100%;
+        padding: 10px 0;
+        border: none;
+        background-color: #2979ff;
+        font-size: 20px;
+        color: #ffffff;
+        text-align:center;" href="<?= base_url('index.php/dashboard'); ?>">Log in</a>
                 
             </form>
             
