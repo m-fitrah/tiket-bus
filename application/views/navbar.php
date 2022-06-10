@@ -11,7 +11,7 @@
 <nav>
  	<ul>
     <li><p>Pemesanan</p></li>
-	 	<li><a href="#" >Home</a></li>
+	 	<li><a href="#">Home</a></li>
 	 	<li><a href="#">Master </a>
         <ul>
         <li><a href="#">Kota Asal</a></li>
