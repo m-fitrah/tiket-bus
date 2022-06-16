@@ -16,12 +16,12 @@
                 <label>Password</label><br>
                 <input type="password" name="password" id=""><br>
                 <a class="button" style="display:block; text-decoration:none; width: 100%;
-        padding: 10px 0;
-        border: none;
-        background-color: #2979ff;
-        font-size: 20px;
-        color: #ffffff;
-        text-align:center;" href="<?= base_url('index.php/dashboard'); ?>">Log in</a>
+                padding: 10px 0;
+                border: none;
+                background-color: #2979ff;
+                font-size: 20px;
+                color: #ffffff;
+                text-align:center;" href="<?= base_url('index.php/dashboard'); ?>">Log in</a>
                 
             </form>
             

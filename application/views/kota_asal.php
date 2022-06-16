@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="mb-3">Kota Asal</h1>
+        <h1 class="my-4">Kota Asal</h1>
         <button type="button" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Tambah </button>
     <table class="table">
   <thead>
