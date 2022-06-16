@@ -36,12 +36,12 @@
           </ul>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-solid fa-calendar-days"></i> Laporan</a>
+          <a class="nav-link" href="<?= base_url('index.php/halaman_laporan'); ?>"><i class="fa-solid fa-calendar-days"></i> Laporan</a>
         </li>
          <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa-solid fa-gear"></i> Utility</a>
+          <a class="nav-link dropdown-toggle" href="<?= base_url('index.php/ganti_password'); ?>" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa-solid fa-gear"></i> Utility</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown02">
-            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen-to-square"></i> Ganti Password</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('index.php/ganti_password'); ?>"><i class="fa-solid fa-pen-to-square"></i> Ganti Password</a></li>
           </ul>
         </li>
       </ul>
